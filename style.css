@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'etchAsketch trial';
+    src: url('fonts/subset-EtchAsketch.woff2') format('woff2'),
+        url('fonts/subset-EtchAsketch.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+body {
+    background-image: linear-gradient( rgb(199, 64, 64), rgb(141, 66, 56));
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    width: 636px;
+    height: auto;
+    margin: auto;
+    margin-top: 0px;
+    flex-wrap: wrap;
+    box-shadow: 10px 5px 3px rgb(19, 19, 19);
+    position: relative;
+}
+
+.squares {
+    flex: 1 1 5.6%;
+    background-color: whitesmoke;
+    height: 39.75px;
+    width: auto;
+    border-style: solid;
+    border-width: 1px;
+}
+.squares:hover {
+    background-color: rgb(0, 0, 0);
+    transition:.35s;
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    width: 636px;
+}
+#main {
+    font-family: 'etchAsketch trial';
+    font-size: 40px;
+    color: gold;
+    font-weight: 600;
+    padding: 20px 0px;
+    text-shadow: 4px 2px #d31414;
+    user-select: none;
+}
+#clearButton:hover {
+    scale: 1.2;
+    transition: .25s;
+}
+
+#clearButton {
+    font-family: 'etchAsketch trial';
+    font-size: 35px;
+    color: gold;
+    font-weight: 500;
+    margin: 30px 0px 0px 0px;
+    text-shadow: 4px 2px #d31414;
+    transition: .2s;
+    user-select: none;
+}
+#rainbowButton:hover {
+    scale: 1.2;
+    transition: .25s;
+}
+#rainbowButton {
+    font-family: 'etchAsketch trial';
+    font-size: 35px;
+    color: gold;
+    font-weight: 500;
+    margin: 30px 0px 0px 0px;
+    text-shadow: 4px 2px #d31414;
+    transition: .2s;
+    user-select: none;
+}
+#eraserButton:hover {
+    scale: 1.2;
+    transition: .25s;
+}
+#eraserButton {
+    font-family: 'etchAsketch trial';
+    font-size: 35px;
+    color: gold;
+    font-weight: 500;
+    margin: 30px 0px 0px 0px;
+    text-shadow: 4px 2px #d31414;
+    transition: .2s;
+    user-select: none;
+}
+#pencilButton:hover {
+    scale: 1.2;
+    transition: .25s;
+}
+#pencilButton {
+    font-family: 'etchAsketch trial';
+    font-size: 35px;
+    color: gold;
+    font-weight: 500;
+    margin: 30px 0px 0px 0px;
+    text-shadow: 4px 2px #d31414;
+    transition: .2s;
+    user-select: none;
+}
